@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Talha Rasheed — Software Engineer (.NET / ASP.NET Core)</title>
+<meta name="description" content="Talha Rasheed — Software Engineer building secure, data-driven web applications with .NET, ASP.NET Core, MVC and SQL Server." />
+<meta property="og:title" content="Talha Rasheed — Software Engineer" />
+<meta property="og:description" content=".NET / ASP.NET Core engineer building real-world business software." />
+<meta property="og:image" content="assets/talha.jpg" />
+<meta name="theme-color" content="#0b0b0b" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230b0b0b'/><text x='50%' y='58%' text-anchor='middle' font-family='Arial Black,Arial' font-size='28' fill='%23c8ff2e'>TR</text></svg>" />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span>View</span></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- Preloader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__top mono"><span>Talha Rasheed</span><span>Portfolio © <span class="yr-now"></span></span></div>
+  <div>
+    <div class="loader__count"><span id="loadNum">0</span>%</div>
+    <div class="loader__bar"><i></i></div>
+  </div>
+</div>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <a href="#top" class="logo" data-cursor="hover"><b>TR</b>Talha.</a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#about"><span>About</span><span>About</span></a>
+    <a href="#experience"><span>Experience</span><span>Experience</span></a>
+    <a href="#skills"><span>Skills</span><span>Skills</span></a>
+    <a href="#work"><span>Work</span><span>Work</span></a>
+    <a href="#education"><span>Education</span><span>Education</span></a>
+    <a href="#contact"><span>Contact</span><span>Contact</span></a>
+  </nav>
+  <button class="btn btn--solid btn--nav" data-open-export>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+    Resume
+  </button>
+  <button class="nav__burger" id="burger" aria-label="Open menu"><i></i><i></i></button>
+</header>
+<div class="mmenu" id="mmenu" data-lenis-prevent>
+  <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+  <a href="#work">Work</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  <button class="btn btn--solid" style="margin-top:26px;align-self:flex-start" data-open-export>Export resume</button>
+</div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__meta mono">
+    <span><i class="dot"></i>Available for new opportunities</span>
+    <span>Based in Pakistan · <span id="clock">--:--</span> PKT</span>
+  </div>
+
+  <div class="hero__stage">
+    <h1 class="hero__name" aria-label="Talha Rasheed">
+      <span class="line"><span class="chars">Talha</span></span>
+      <span class="line"><span class="chars">Rasheed</span></span>
+    </h1>
+    <div class="hero__photo" data-cursor="label" data-label="Hello!">
+      <img src="assets/talha.jpg" alt="Portrait of Talha Rasheed" />
+    </div>
+    <div class="hero__badge" aria-hidden="true">
+      <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#circ">Software Engineer • .NET Core • </textPath></text></svg>
+      <b>✦</b>
+    </div>
+  </div>
+
+  <div class="hero__foot">
+    <p class="hero__role reveal-up">Software Engineer crafting <span class="serif accent">robust</span> web applications with .NET, ASP.NET Core &amp; SQL Server.</p>
+    <a href="#about" class="scroll-ind mono" aria-label="Scroll down"><i></i>Scroll</a>
+    <div class="hero__cta reveal-up">
+      <a href="#work" class="btn" data-cursor="hover">See my work</a>
+      <button class="btn btn--solid" data-open-export data-cursor="hover">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+        Download CV
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" data-marquee="1">
+    <div class="marquee__item">
+      <span>ASP.NET Core</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+      <span class="serif">C#</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+      <span>Entity Framework</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+      <span class="serif">SQL Server</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+      <span>RESTful APIs</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+      <span class="serif">MVC</span><svg class="star" viewBox="0 0 24 24" fill="#c8ff2e"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12-.6-6.6-5.4-11.4-12-12C6.6 11.4 11.4 6.6 12 0z"/></svg>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="sec" id="about">
+  <div class="about__grid">
+    <aside class="about__aside">
+      <div class="sec__kicker mono">01 — About</div>
+      <div class="portrait" data-parallax-img><img src="assets/talha.jpg" alt="" loading="lazy" /></div>
+      <p>Software Engineer at <strong style="color:var(--ink)">Metropolitan Warehouse &amp; Delivery</strong>, previously at DynamicBits. BS Computer Science from The Islamia University of Bahawalpur.</p>
+    </aside>
+    <div>
+      <p class="about__lead" id="aboutLead">I help progressive organizations grow by building customized, dependable software. I live in the .NET ecosystem — ASP.NET Core, MVC, Entity Framework and SQL Server — and love turning messy business problems into clean, n-tier applications that real teams use every day.</p>
+      <ul class="hl">
+        <li><span>01</span>Strong object-oriented &amp; visual programming concepts</li>
+        <li><span>02</span>Worked on n-tier applications</li>
+        <li><span>03</span>Strong database design &amp; query skills</li>
+        <li><span>04</span><span style="color:inherit;font:inherit;padding:0"><b class="yrs-exp">3</b>+ years with MVC .NET &amp; .NET Core</span></li>
+        <li><span>05</span>Meticulous checking, re-checking &amp; problem solving</li>
+        <li><span>06</span>System analysis &amp; design fundamentals</li>
+      </ul>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b><span class="count yrs-exp" data-to="3">0</span><sup>+</sup></b><small>Years of experience</small></div>
+    <div class="stat"><b><span class="count" data-to="5">0</span><sup>+</sup></b><small>Major projects delivered</small></div>
+    <div class="stat"><b><span class="count" data-to="20">0</span><sup>+</sup></b><small>Technologies &amp; tools</small></div>
+    <div class="stat"><b>BS</b><small>Computer Science, IUB</small></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="sec exp" id="experience">
+  <div class="sec__head">
+    <div>
+      <div class="sec__kicker mono">02 — Experience</div>
+      <h2 class="sec__title"><span class="split-line"><span>Where I</span></span><span class="split-line"><span><span class="serif">build</span> things</span></span></h2>
+    </div>
+  </div>
+  <article class="exp__card">
+    <div>
+      <div class="exp__when"><i></i>Jul 2024 — Present</div>
+      <h3 class="exp__co">Metropolitan</h3>
+      <div class="exp__role">Software Engineer · Metropolitan Warehouse &amp; Delivery</div>
+    </div>
+    <div class="exp__body">
+      <p>I design, develop and maintain software applications with a focus on performance, scalability and security. Working with cross-functional teams, I've helped deliver seamless payment gateways and an improved user experience — and through code reviews, best practices and agile methodologies I help optimize workflows and keep quality standards high.</p>
+      <div class="exp__stack">
+        <h4>Focus areas</h4>
+        <div class="tags"><span class="tag">Performance</span><span class="tag">Scalability</span><span class="tag">Security</span><span class="tag">Payment gateways</span><span class="tag">Code reviews</span><span class="tag">Agile</span><span class="tag">Clean architecture</span></div>
+      </div>
+    </div>
+  </article>
+  <article class="exp__card">
+    <div>
+      <div class="exp__when exp__when--past"><i></i>Jan 2022 — Jun 2024</div>
+      <h3 class="exp__co">DynamicBits</h3>
+      <div class="exp__role">Software Engineer</div>
+    </div>
+    <div class="exp__body">
+      <p>DynamicBits is a team of ardent, persistent and self-driven professionals making a difference in the local software development market — building customized solutions that meet the needs of local businesses. I built full-stack .NET applications end to end: from database schema and secure APIs to responsive front-ends.</p>
+      <div class="exp__stack">
+        <h4>Languages / Tools</h4>
+        <div class="tags">
+          <span class="tag">C#</span><span class="tag">ASP.NET Core</span><span class="tag">.NET Core</span><span class="tag">.NET</span><span class="tag">MVC</span><span class="tag">Entity Framework</span><span class="tag">JWT</span><span class="tag">RESTful API</span><span class="tag">Identity</span><span class="tag">SQL Server</span><span class="tag">LINQ</span><span class="tag">jQuery</span><span class="tag">Ajax</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span><span class="tag">Git</span><span class="tag">GitHub</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- SKILLS -->
+<section class="sec skills" id="skills">
+  <div class="sec__head">
+    <div>
+      <div class="sec__kicker mono">03 — Skills</div>
+      <h2 class="sec__title"><span class="split-line"><span>The <span class="serif">toolkit</span></span></span></h2>
+    </div>
+    <p style="max-width:380px;color:#4a4844">Specialties across the Microsoft stack — from back-end architecture to the pixels users click.</p>
+  </div>
+  <div class="sk-grid">
+    <div class="sk sk--wide sk--dark tilt">
+      <div><div class="sk__n">01 / Core</div><h3>Back-end &amp; Frameworks</h3></div>
+      <div class="tags"><span class="tag">C#</span><span class="tag">.NET</span><span class="tag">.NET Core</span><span class="tag">ASP.NET Core</span><span class="tag">MVC</span><span class="tag">Entity Framework</span><span class="tag">LINQ</span><span class="tag">RESTful API</span><span class="tag">JWT</span><span class="tag">Identity</span></div>
+    </div>
+    <div class="sk tilt">
+      <div><div class="sk__n">02 / Data</div><h3>Databases</h3></div>
+      <div class="tags"><span class="tag">SQL Server 2012–2018</span><span class="tag">PostgreSQL</span></div>
+    </div>
+    <div class="sk tilt">
+      <div><div class="sk__n">03 / UI</div><h3>Front-end</h3></div>
+      <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span><span class="tag">JavaScript</span><span class="tag">jQuery</span><span class="tag">Ajax</span></div>
+    </div>
+    <div class="sk tilt">
+      <div><div class="sk__n">04 / Workflow</div><h3>Software &amp; Cloud</h3></div>
+      <div class="tags"><span class="tag">Visual Studio</span><span class="tag">SSMS</span><span class="tag">pgAdmin</span><span class="tag">Azure</span><span class="tag">Git</span><span class="tag">GitHub</span></div>
+    </div>
+    <div class="sk tilt">
+      <div><div class="sk__n">05 / Method</div><h3>Approach</h3></div>
+      <div class="tags"><span class="tag">OOP</span><span class="tag">OO Modeling &amp; Design</span><span class="tag">N-tier</span><span class="tag">Windows</span></div>
+    </div>
+    <div class="sk sk--wide sk--dark tilt" style="justify-content:flex-end">
+      <div class="sk__n">06 / Expertise</div>
+      <div class="sk__big">Web <span class="serif accent">&amp;</span> App<br/>Development</div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee marquee--accent" aria-hidden="true">
+  <div class="marquee__track" data-marquee="-1">
+    <div class="marquee__item">
+      <span>Clean architecture</span><span>✦</span><span class="serif">Secure APIs</span><span>✦</span><span>Fast queries</span><span>✦</span><span class="serif">Real-world impact</span><span>✦</span>
+    </div>
+  </div>
+</div>
+
+<!-- WORK / PROJECTS -->
+<section class="work" id="work">
+  <div class="sec__head">
+    <div>
+      <div class="sec__kicker mono">04 — Selected work</div>
+      <h2 class="sec__title"><span class="split-line"><span>Projects that</span></span><span class="split-line"><span><span class="serif">ship</span> &amp; scale</span></span></h2>
+    </div>
+    <p class="mono" style="color:var(--mute)" id="hsHint">Scroll → to explore</p>
+  </div>
+  <div class="hs" id="hs">
+    <div class="hs__track" id="hsTrack">
+
+      <article class="pj" data-cursor="label" data-label="Chat">
+        <div class="pj__top"><span class="mono" style="color:var(--mute)">Web · Real-time</span><span class="pj__num">01</span></div>
+        <div class="pj__visual">
+          <div class="ui">
+            <div class="ui__bar"><i></i><i></i><i></i></div>
+            <div class="bubble">Can you share the Q3 report?</div>
+            <div class="bubble me">Sure — uploading now 👇</div>
+            <div class="bubble me file"><b>PDF</b>Q3_Report_Final.pdf</div>
+            <div class="typing"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div>
+          <h3>Chat App</h3>
+          <p style="margin:14px 0 20px">A web-based communication platform built for a specific organization — real-time text conversations and document sharing that boost internal collaboration, productivity and connectivity.</p>
+          <div class="tags"><span class="tag">ASP.NET Core</span><span class="tag">Real-time messaging</span><span class="tag">File sharing</span><span class="tag">SQL Server</span></div>
+        </div>
+      </article>
+
+      <article class="pj pj--accent" data-cursor="label" data-label="Tours">
+        <div class="pj__top"><span class="mono">Web · Payments</span><span class="pj__num">02</span></div>
+        <div class="pj__visual">
+          <div class="ui">
+            <div class="ui__bar"><i></i><i></i><i></i></div>
+            <div style="display:flex;justify-content:space-between;color:#cfccc5;font-family:var(--body);font-size:13px"><span>Lahore → Hunza · Fri</span><b style="color:var(--accent)">12 seats left</b></div>
+            <div class="seats" id="seats"></div>
+            <div class="row" style="margin-top:auto"><span>PayPal · Booking #4821</span><b>Paid ✓</b></div>
+          </div>
+        </div>
+        <div>
+          <h3>LMT — Last Moment Tour</h3>
+          <p style="margin:14px 0 20px">A web service for tour companies of any size to manage daily tours and sell remaining seats at the last moment. Includes PayPal integration, a well-defined accounting structure, payment &amp; transaction management, and Admin / Super Admin control.</p>
+          <div class="tags"><span class="tag">ASP.NET MVC</span><span class="tag">PayPal</span><span class="tag">Accounting</span><span class="tag">Role-based access</span></div>
+        </div>
+      </article>
+
+      <article class="pj" data-cursor="label" data-label="POS">
+        <div class="pj__top"><span class="mono" style="color:var(--mute)">Web · Retail ERP</span><span class="pj__num">03</span></div>
+        <div class="pj__visual">
+          <div class="ui">
+            <div class="ui__bar"><i></i><i></i><i></i></div>
+            <div class="kpis"><div class="kpi">Sales<b>Rs 248k</b></div><div class="kpi">Orders<b>1,204</b></div><div class="kpi">Stock<b>98%</b></div></div>
+            <div class="chart" id="chart"><i style="height:40%"></i><i style="height:62%"></i><i style="height:48%"></i><i style="height:75%"></i><i style="height:58%"></i><i class="hi" style="height:92%"></i><i style="height:70%"></i></div>
+          </div>
+        </div>
+        <div>
+          <h3>Trade360</h3>
+          <p style="margin:14px 0 20px">POS, inventory and accounts management built to run the daily operations of a retail business — rapid billing, automatic purchase orders, attendance &amp; payroll management and dynamic reports.</p>
+          <div class="tags"><span class="tag">.NET Core</span><span class="tag">POS</span><span class="tag">Inventory</span><span class="tag">Payroll</span><span class="tag">Reporting</span></div>
+        </div>
+      </article>
+
+      <article class="pj" data-cursor="label" data-label="POMS">
+        <div class="pj__top"><span class="mono" style="color:var(--mute)">Web · Clean architecture</span><span class="pj__num">04</span></div>
+        <div class="pj__visual">
+          <div class="ui">
+            <div class="ui__bar"><i></i><i></i><i></i></div>
+            <div class="layers">
+              <div class="layer"><span>Presentation</span><small>User · Employee pages</small></div>
+              <div class="layer"><span>Application</span><small>Use cases · DTOs</small></div>
+              <div class="layer"><span>Domain</span><small>Entities · Rules</small></div>
+              <div class="layer hi"><span>Infrastructure</span><small>EF Core · SQL Server</small></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>POMS</h3>
+          <p style="margin:14px 0 20px">Implemented project settings using clean architecture so every new project follows one consistent architectural framework — improving scalability and maintainability across projects. Built components including the User and Employee System pages.</p>
+          <div class="tags"><span class="tag">Clean Architecture</span><span class="tag">ASP.NET Core</span><span class="tag">Entity Framework</span><span class="tag">Best practices</span></div>
+        </div>
+      </article>
+
+      <article class="pj pj--accent" data-cursor="label" data-label="HR">
+        <div class="pj__top"><span class="mono">Web · HR system</span><span class="pj__num">05</span></div>
+        <div class="pj__visual">
+          <div class="ui">
+            <div class="ui__bar"><i></i><i></i><i></i></div>
+            <div style="color:#cfccc5;font-family:var(--body);font-size:13px">Medical Claim · #MC-1042</div>
+            <div class="steps"><i class="done">Submitted</i><i class="done">HR review</i><i class="cur">Approved</i><i>Paid</i></div>
+            <div class="row"><span>Submitted online · no paperwork</span><b>Approved ✓</b></div>
+          </div>
+        </div>
+        <div>
+          <h3>HR MSPL</h3>
+          <p style="margin:14px 0 20px">A web-based HR Management System that digitizes the company's medical claim process and removes paper-based workflows — employees submit claims online without visiting HR. Built the Employee System User page, Medical Claim page and system settings using clean architecture.</p>
+          <div class="tags"><span class="tag">Clean Architecture</span><span class="tag">Workflow</span><span class="tag">ASP.NET Core</span><span class="tag">System settings</span></div>
+        </div>
+      </article>
+
+      <article class="pj" data-cursor="label" data-label="More">
+        <div class="pj__top"><span class="mono" style="color:var(--mute)">Web · University &amp; FYPs</span><span class="pj__num">06</span></div>
+        <div class="pj__visual">
+          <div class="ui" style="justify-content:center">
+            <div class="chips"><span>🏥 Hospital Management</span><span>🍽️ Restaurant Management</span><span>🍕 Pizza Ordering</span><span>📖 Recipe App</span><span>🎓 Final Year Projects</span><span>＋ more</span></div>
+          </div>
+        </div>
+        <div>
+          <h3>Other Projects</h3>
+          <p style="margin:14px 0 20px">Full-stack management systems and apps built during university — front-end UI and back-end logic — using Identity and Entity Framework for authentication, authorization and data management. Delivered several final year projects (FYPs) for peers, independently from design to deployment.</p>
+          <div class="tags"><span class="tag">Full-stack</span><span class="tag">Identity</span><span class="tag">Entity Framework</span><span class="tag">FYP delivery</span></div>
+        </div>
+      </article>
+
+      <article class="pj pj--end">
+        <span class="mono" style="color:var(--mute)">Next project</span>
+        <h3 style="margin:18px 0 26px">Could be <span class="serif accent">yours.</span></h3>
+        <a href="#contact" class="btn btn--solid" data-cursor="hover">Let's talk →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="sec" id="education">
+  <div class="sec__head">
+    <div>
+      <div class="sec__kicker mono">05 — Education</div>
+      <h2 class="sec__title"><span class="split-line"><span>Learning <span class="serif">path</span></span></span></h2>
+    </div>
+  </div>
+  <div class="edu__list" id="eduList">
+    <div class="edu__line"><i></i></div>
+    <div class="edu__item">
+      <div>
+        <h3>BS Computer Science</h3>
+        <div class="where">The Islamia University of Bahawalpur</div>
+        <p>Software Engineering, Algorithms, Machine Learning, Data Science, Technical &amp; Business Communication, Visual Programming, IT Project Management, Artificial Intelligence and Web Development.</p>
+      </div>
+      <span class="yr">2020 — 2024</span>
+    </div>
+    <div class="edu__item">
+      <div>
+        <h3>Certificate in Web Designing</h3>
+        <div class="where">Built-in Soft</div>
+        <p>Professional certification in web design fundamentals.</p>
+      </div>
+      <span class="yr">Certification</span>
+    </div>
+    <div class="edu__item">
+      <div>
+        <h3>ICS</h3>
+        <div class="where">Leads College Fortabbas</div>
+        <p>Computer Science, Physics, Mathematics.</p>
+      </div>
+      <span class="yr">2018 — 2020</span>
+    </div>
+    <div class="edu__item" style="padding-bottom:0">
+      <div>
+        <h3>Matric (Science)</h3>
+        <div class="where">Pakistan Public High School, Haroonabad</div>
+        <p>Biology, Mathematics, Chemistry, Physics.</p>
+      </div>
+      <span class="yr">2015 — 2017</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div>
+    <div class="sec__kicker mono" style="color:rgba(11,11,11,.6)">06 — Contact</div>
+    <h2 class="contact__big"><span class="split-line"><span>Let's build</span></span><span class="split-line"><span><span class="serif">something</span></span></span><span class="split-line"><span>great.</span></span></h2>
+  </div>
+  <div>
+    <div class="contact__row">
+      <a href="mailto:tch786450@gmail.com" class="magnet" id="magnet"><span>Say hello<br/>↗</span></a>
+      <div class="clinks">
+        <a href="mailto:tch786450@gmail.com"><small>Email</small>tch786450@gmail.com</a>
+        <a href="https://www.linkedin.com/in/talha-rasheed-a3a185209" target="_blank" rel="noopener"><small>LinkedIn</small>talha-rasheed ↗</a>
+        <a href="tel:+923067687344"><small>Phone</small>+92 306 7687344</a>
+        <a href="https://wa.me/923067687344" target="_blank" rel="noopener"><small>WhatsApp</small>Chat on WhatsApp ↗</a>
+      </div>
+    </div>
+    <footer class="foot">
+      <span class="mono">© <span class="yr-now"></span> Talha Rasheed</span>
+      <button class="btn" data-open-export>Export resume ↓</button>
+      <a href="#top" class="mono" id="toTop">Back to top ↑</a>
+    </footer>
+  </div>
+</section>
+</main>
+
+<!-- EXPORT MODAL -->
+<div class="modal" id="exportModal" role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+  <div class="modal__bg" data-close-export></div>
+  <div class="modal__panel" data-lenis-prevent>
+    <button class="modal__x" data-close-export aria-label="Close">✕</button>
+    <div class="modal__side">
+      <div>
+        <div class="sec__kicker mono">Resume export</div>
+        <h2 id="exportTitle">Download my <span class="serif accent">resume</span></h2>
+      </div>
+
+      <div class="field">
+        <span class="lbl mono">Format</span>
+        <div class="fmts" id="fmts">
+          <div class="fmt"><input type="radio" name="fmt" id="f-pdf" value="pdf" checked><label for="f-pdf"><b>PDF</b><small>Designed, print-ready A4</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-doc" value="doc"><label for="f-doc"><b>Word (.doc)</b><small>Editable in MS Word</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-docx" value="docx"><label for="f-docx"><b>Original CV</b><small>The source PDF file</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-print" value="print"><label for="f-print"><b>Print</b><small>Or "Save as PDF" in browser</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-md" value="md"><label for="f-md"><b>Markdown</b><small>For GitHub / Notion</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-txt" value="txt"><label for="f-txt"><b>Plain text</b><small>ATS-friendly .txt</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-json" value="json"><label for="f-json"><b>JSON Resume</b><small>jsonresume.org schema</small></label></div>
+          <div class="fmt"><input type="radio" name="fmt" id="f-html" value="html"><label for="f-html"><b>HTML</b><small>Standalone web page</small></label></div>
+        </div>
+      </div>
+
+      <div class="field" id="designFields">
+        <span class="lbl mono">Template</span>
+        <div class="opts">
+          <div class="seg" id="tplSeg">
+            <button class="on" data-tpl="modern">Modern</button>
+            <button data-tpl="classic">Classic</button>
+            <button data-tpl="minimal">Minimal</button>
+          </div>
+          <div class="swatches" id="swatches" aria-label="Accent colour">
+            <button class="on" style="background:#0b0b0b" data-c="#0b0b0b" aria-label="Black"></button>
+            <button style="background:#1f4ed8" data-c="#1f4ed8" aria-label="Blue"></button>
+            <button style="background:#0f766e" data-c="#0f766e" aria-label="Teal"></button>
+            <button style="background:#7c3aed" data-c="#7c3aed" aria-label="Violet"></button>
+            <button style="background:#b45309" data-c="#b45309" aria-label="Amber"></button>
+          </div>
+        </div>
+        <div class="opts" style="margin-top:16px">
+          <label class="toggle"><input type="checkbox" id="optPhoto" checked> Include photo</label>
+          <label class="toggle"><input type="checkbox" id="optProjects" checked> Include projects</label>
+        </div>
+      </div>
+
+      <div>
+        <button class="btn btn--solid dl-btn" id="doExport">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+          <span id="doExportLabel">Download PDF</span>
+        </button>
+        <p class="dl-note" id="dlNote" style="margin-top:12px"></p>
+      </div>
+    </div>
+    <div class="modal__preview">
+      <div class="pv-frame" id="pvFrame"><div id="pvInner"></div></div>
+      <span class="pv-cap mono">Live preview · A4</span>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"><i></i><span>Done</span></div>
+<div id="resume-render" aria-hidden="true"></div>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/lenis.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
