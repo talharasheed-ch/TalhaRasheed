@@ -30,3 +30,18 @@ PDF (Modern, Classic or Minimal template, 5 accent colours, photo and projects c
 - GSAP 3.12 + ScrollTrigger and Lenis are stored locally in assets/js, so the site works offline and when opened as a local file
 - html2canvas + jsPDF (PDF export) are in assets/vendor/, with a CDN fallback
 
+
+## SEO and AI SEO (already set up)
+- Meta tags: title, description, canonical, robots, Open Graph (LinkedIn/WhatsApp previews), Twitter card, `og-image.jpg` (1200×630)
+- Structured data (JSON-LD): Person, WebSite, ProfilePage (with projects) and FAQPage
+- Visible FAQ section written to answer "Who is Talha Rasheed?" style questions
+- `robots.txt` allows all search engines and AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended and others)
+- `sitemap.xml` (with images), `llms.txt` (plain-text profile for AI assistants), `site.webmanifest`, icons, `404.html`
+- Lighthouse: SEO 100, Accessibility 100
+
+### After deploying, do this once
+1. **Google Search Console** (search.google.com/search-console): add `https://talharasheed.vercel.app`, choose the "HTML tag" method, paste the tag into `index.html` where the comment says so, redeploy, then click Verify. Submit `sitemap.xml` and use "Request indexing" on the home page.
+2. **Bing Webmaster Tools** (bing.com/webmasters): import from Google Search Console or verify the same way, then submit the sitemap. Bing also feeds ChatGPT search and Copilot.
+3. **LinkedIn:** add the portfolio URL under Contact info → Website, and in the Featured section.
+4. Add the link to your GitHub profile, CV, email signature and any other profiles. Links from other sites help ranking.
+5. When the CV changes, update `index.html`, `assets/js/main.js` (RESUME), `llms.txt`, and `<lastmod>` in `sitemap.xml`.

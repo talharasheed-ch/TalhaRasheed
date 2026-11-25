@@ -1,0 +1,46 @@
+# Talha Rasheed
+
+> Talha Rasheed is a .NET Software Engineer from Pakistan who builds secure, scalable web applications with ASP.NET Core, C#, MVC, Entity Framework and SQL Server. He is currently a Software Engineer at Metropolitan Warehouse & Delivery (since July 2024) and previously worked at DynamicBits (January 2022 – June 2024). He is open to new opportunities: full-time, remote and freelance.
+
+- Portfolio: https://talharasheed.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/talha-rasheed-a3a185209
+- Email: tch786450@gmail.com
+- Phone / WhatsApp: +92-306-7687344
+- Location: Pakistan
+- Résumé (PDF): https://talharasheed.vercel.app/assets/Talha_Rasheed_Resume.pdf
+
+## Summary
+- Role: Software Engineer (.NET / ASP.NET Core, full-stack)
+- Experience: 3+ years with ASP.NET MVC, .NET and .NET Core
+- Strengths: object-oriented design, n-tier and clean architecture, database design, problem solving, code reviews, Agile delivery
+- Specialties: .NET, .NET Core, ASP.NET Core, MVC, MS SQL Server, jQuery, LINQ, JavaScript, Visual Studio, HTML, CSS, Bootstrap
+
+## Experience
+- Software Engineer at Metropolitan Warehouse & Delivery (Jul 2024 – Present): designs, develops and maintains software applications with a focus on performance, scalability and security. Works with cross-functional teams to deliver seamless payment gateways and an improved user experience. Contributes through code reviews, best practices and Agile methodologies.
+- Software Engineer at DynamicBits (Jan 2022 – Jun 2024): built customized software solutions for local businesses using C#, ASP.NET Core, MVC, Entity Framework, JWT, RESTful APIs, ASP.NET Identity, SQL Server, LINQ, jQuery, Ajax and Bootstrap.
+
+## Skills
+- Languages and frameworks: C#, .NET, .NET Core, ASP.NET Core, ASP.NET MVC, Entity Framework, LINQ, RESTful API, JWT, ASP.NET Identity
+- Front-end: HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax
+- Databases: Microsoft SQL Server (2012/2014/2018), PostgreSQL
+- Tools: Visual Studio, SQL Server Management Studio, pgAdmin, Git, GitHub
+- Cloud: Microsoft Azure
+- Methodology: Object-Oriented Programming, Object-Oriented Modeling & Design, Clean Architecture
+- Platform: Windows
+
+## Projects
+- Trade360: POS, inventory and accounts management for retail businesses, with rapid billing, automatic purchase orders, attendance and payroll management, and dynamic reports.
+- LMT (Last Moment Tour): tour-management web app for selling remaining seats at the last moment, with PayPal integration, an accounting structure, payment and transaction management, and Admin / Super Admin roles.
+- Chat App: web-based real-time chat and document-sharing platform for internal communication inside an organization.
+- POMS: project system built on clean architecture. Talha implemented the project settings and the User and Employee System pages.
+- HR MSPL: HR management system that digitizes medical claims and removes paper-based workflows. Talha built the Employee System User page, the Medical Claim page and the system settings.
+- University projects: hospital management, restaurant management, pizza ordering and recipe apps, plus several final year projects (FYPs) delivered independently from design to deployment.
+
+## Education
+- BS Computer Science, The Islamia University of Bahawalpur (2020 – 2024)
+- ICS, Leads College Fort Abbas (2018 – 2020)
+- Matric (Science), Pakistan Public High School, Haroonabad (2015 – 2017)
+- Certificate in Web Designing, Built-in Soft
+
+## Good fit for
+ASP.NET Core / .NET developer roles, C# back-end development, full-stack .NET web applications, SQL Server database work, REST API development, ERP / POS / HR / business management systems, and payment gateway integration.

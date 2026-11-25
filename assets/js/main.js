@@ -206,8 +206,8 @@ function runIntro() {
   gsap.set([".hero__meta", ".reveal-up", ".scroll-ind", ".nav"], { autoAlpha: 0, y: 20 });
   gsap.set(".hero__badge", { scale: 0, rotate: -90 });
   const tl = gsap.timeline();
-  tl.to(n, { v: 100, duration: 1.6, ease: "power2.inOut", onUpdate: () => $("#loadNum").textContent = Math.round(n.v) })
-    .to(".loader__bar i", { width: "100%", duration: 1.6, ease: "power2.inOut" }, 0)
+  tl.to(n, { v: 100, duration: 1.2, ease: "power2.inOut", onUpdate: () => $("#loadNum").textContent = Math.round(n.v) })
+    .to(".loader__bar i", { width: "100%", duration: 1.2, ease: "power2.inOut" }, 0)
     .to(loader, { clipPath: "inset(0 0 100% 0)", duration: 1, ease: "expo.inOut" }, "+=.1")
     .add(() => loader.remove())
     .to(".hero__photo", { clipPath: "inset(0% 0 0 0 round 200px 200px 18px 18px)", duration: 1.3, ease: "expo.out" }, "-=.45")
@@ -222,7 +222,7 @@ setTimeout(() => { const l = $("#loader"); if (l) l.remove(); }, 9000);
 /* ---------- scroll animations ---------- */
 function initScroll() {
   if (!hasGSAP || reduced) {
-    $$(".about__lead .w").forEach(w => w.style.opacity = 1);
+    $$(".about__lead .w").forEach(w => w.style.color = "#f1efe9");
     $$(".count").forEach(c => c.textContent = c.dataset.to);
     const l = $(".edu__line i"); if (l) l.style.transform = "scaleY(1)";
     return;
@@ -242,7 +242,7 @@ function initScroll() {
   $$(".sec__kicker").forEach(k => gsap.from(k, { autoAlpha: 0, x: -20, duration: .8, scrollTrigger: { trigger: k, start: "top 90%" } }));
 
   // about: word-by-word scrub
-  gsap.to("#aboutLead .w", { opacity: 1, stagger: .1, ease: "none", scrollTrigger: { trigger: "#aboutLead", start: "top 80%", end: "bottom 45%", scrub: true } });
+  gsap.to("#aboutLead .w", { color: "#f1efe9", stagger: .1, ease: "none", scrollTrigger: { trigger: "#aboutLead", start: "top 80%", end: "bottom 45%", scrub: true } });
   gsap.from(".hl li", { autoAlpha: 0, y: 30, duration: .8, stagger: .07, ease: "power3.out", scrollTrigger: { trigger: ".hl", start: "top 85%" } });
   gsap.fromTo(".about__aside .portrait img", { yPercent: -8 }, { yPercent: 8, ease: "none", scrollTrigger: { trigger: ".about__aside .portrait", scrub: true } });
 
@@ -283,6 +283,9 @@ function initScroll() {
   // education line draw
   gsap.to(".edu__line i", { scaleY: 1, ease: "none", scrollTrigger: { trigger: "#eduList", start: "top 70%", end: "bottom 60%", scrub: true } });
   $$(".edu__item").forEach(it => gsap.from(it, { autoAlpha: 0, x: 60, duration: 1, ease: "expo.out", scrollTrigger: { trigger: it, start: "top 82%" } }));
+
+  // faq
+  gsap.from(".faq__item", { autoAlpha: 0, y: 40, duration: .9, stagger: .08, ease: "expo.out", scrollTrigger: { trigger: ".faq__list", start: "top 85%" } });
 
   // contact
   gsap.from("#magnet", { scale: 0, rotate: -120, duration: 1.2, ease: "back.out(1.6)", scrollTrigger: { trigger: ".contact__row", start: "top 90%" } });
