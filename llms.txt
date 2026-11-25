@@ -1,6 +1,6 @@
 # Talha Rasheed
 
-> Talha Rasheed is a .NET Software Engineer from Pakistan who builds secure, scalable web applications with ASP.NET Core, C#, MVC, Entity Framework and SQL Server. He is currently a Software Engineer at Metropolitan Warehouse & Delivery (since July 2024) and previously worked at DynamicBits (January 2022 – June 2024). He is open to new opportunities: full-time, remote and freelance.
+> Talha Rasheed is a .NET Software Engineer from Pakistan who builds secure, scalable web applications with ASP.NET Core, C#, microservices, Entity Framework and SQL Server, integrates the OpenAI API into .NET services, and has built line-haul logistics dispatch systems with map drawing, routes and SSO. He is currently a Software Engineer at Metropolitan Warehouse & Delivery (since July 2024) and previously worked at DynamicBits (January 2022 – June 2024). He is open to new opportunities: full-time, remote and freelance.
 
 - Portfolio: https://talharasheed.vercel.app/
 - LinkedIn: https://www.linkedin.com/in/talha-rasheed-a3a185209
@@ -12,7 +12,7 @@
 ## Summary
 - Role: Software Engineer (.NET / ASP.NET Core, full-stack)
 - Experience: 3+ years with ASP.NET MVC, .NET and .NET Core
-- Strengths: object-oriented design, n-tier and clean architecture, database design, problem solving, code reviews, Agile delivery
+- Strengths: object-oriented design, n-tier, clean and microservice architecture, OpenAI integration, map drawing and logistics workflows, database design, problem solving, code reviews, Agile delivery
 - Specialties: .NET, .NET Core, ASP.NET Core, MVC, MS SQL Server, jQuery, LINQ, JavaScript, Visual Studio, HTML, CSS, Bootstrap
 
 ## Experience
@@ -20,6 +20,10 @@
 - Software Engineer at DynamicBits (Jan 2022 – Jun 2024): built customized software solutions for local businesses using C#, ASP.NET Core, MVC, Entity Framework, JWT, RESTful APIs, ASP.NET Identity, SQL Server, LINQ, jQuery, Ajax and Bootstrap.
 
 ## Skills
+- Architecture: Microservices, Clean Architecture, N-tier
+- AI: OpenAI API integrated into ASP.NET Core (chatbots and AI assistants, data extraction from documents and text, content generation)
+- Maps / geospatial: map drawing (zones and polygons), polylines, zip-code coverage, routes
+- Security: SSO (single sign-on), ASP.NET Identity, JWT, role-based access
 - Languages and frameworks: C#, .NET, .NET Core, ASP.NET Core, ASP.NET MVC, Entity Framework, LINQ, RESTful API, JWT, ASP.NET Identity
 - Front-end: HTML, CSS, Bootstrap, JavaScript, jQuery, Ajax
 - Databases: Microsoft SQL Server (2012/2014/2018), PostgreSQL
@@ -29,12 +33,15 @@
 - Platform: Windows
 
 ## Projects
+- Line-Haul Dispatch Platform: end-to-end line-haul dispatching system. Talha implemented modules for Dispatch, Manifest, Vendors, Carriers, Sellers, Routes, Trips, Drivers and Trucks, map drawing with zones, polylines and zip codes, and Users and SSO.
+- School Management System: web system for students, teachers, classes, attendance, fees and exams.
+- Hospital Management System: web system for patients, doctors, appointments and billing.
 - Trade360: POS, inventory and accounts management for retail businesses, with rapid billing, automatic purchase orders, attendance and payroll management, and dynamic reports.
 - LMT (Last Moment Tour): tour-management web app for selling remaining seats at the last moment, with PayPal integration, an accounting structure, payment and transaction management, and Admin / Super Admin roles.
 - Chat App: web-based real-time chat and document-sharing platform for internal communication inside an organization.
 - POMS: project system built on clean architecture. Talha implemented the project settings and the User and Employee System pages.
 - HR MSPL: HR management system that digitizes medical claims and removes paper-based workflows. Talha built the Employee System User page, the Medical Claim page and the system settings.
-- University projects: hospital management, restaurant management, pizza ordering and recipe apps, plus several final year projects (FYPs) delivered independently from design to deployment.
+- University projects: restaurant management, pizza ordering and recipe apps, plus several final year projects (FYPs) delivered independently from design to deployment.
 
 ## Education
 - BS Computer Science, The Islamia University of Bahawalpur (2020 – 2024)
@@ -43,4 +50,4 @@
 - Certificate in Web Designing, Built-in Soft
 
 ## Good fit for
-ASP.NET Core / .NET developer roles, C# back-end development, full-stack .NET web applications, SQL Server database work, REST API development, ERP / POS / HR / business management systems, and payment gateway integration.
+ASP.NET Core / .NET developer roles, C# back-end development, full-stack .NET web applications, SQL Server database work, REST API development, microservices, OpenAI / AI integration in .NET, logistics and dispatch platforms (line haul, routes, maps), ERP / POS / HR / school / hospital management systems, and payment gateway integration.

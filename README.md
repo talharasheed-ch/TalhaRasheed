@@ -1,4 +1,4 @@
-# Talha Rasheed — Portfolio
+# Talha Rasheed — Portfolio ("Paper & Emerald" editorial theme)
 
 Static, frontend-only portfolio (HTML + CSS + JS). There is no build step and no backend.
 
